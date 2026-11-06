@@ -1,0 +1,13 @@
+{
+  "name": "envguard",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that checks your .env against .env.example",
+  "type": "module",
+  "bin": { "envguard": "bin/envguard.js" },
+  "exports": "./src/index.js",
+  "files": ["bin", "src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["env", "dotenv", "cli", "validation"],
+  "license": "MIT"
+}
